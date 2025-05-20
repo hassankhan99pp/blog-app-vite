@@ -9,7 +9,6 @@ A full-stack blog application built with MERN stack. It includes role-based logi
 - ✍️ Author Panel – manage personal blog posts
 - 📄 Full CRUD (Create, Read, Update, Delete) for blogs
 - 🧭 React Router `Outlet` for nested routes
-- ⚙️ Express.js RESTful API
 - 🗂️ Well-structured project folders
 
 ## 🚀 Technologies Used
