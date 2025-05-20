@@ -1,12 +1,32 @@
-# React + Vite
+# Blog-app-vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack blog application built with MERN stack. It includes role-based login, Admin and Author panels, dynamic routing using React Router's `Outlet`, and full CRUD functionality for blog posts.
 
-Currently, two official plugins are available:
+## 🔑 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 Login System with role-based access
+- 🧑‍💻 Admin Panel – manage all posts and users
+- ✍️ Author Panel – manage personal blog posts
+- 📄 Full CRUD (Create, Read, Update, Delete) for blogs
+- 🧭 React Router `Outlet` for nested routes
+- ⚙️ Express.js RESTful API
+- 🗂️ Well-structured project folders
 
-## Expanding the ESLint configuration
+## 🚀 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React, React Router, Bootstrap
+
+## 📦 How to Run
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/blog-app.git
+cd blog-app-vite
+
+# Install dependencies
+npm i
+npm run dev // it will run frontend code
+
+# for backend 
+cd data
+ npx json-server --watch db.json --port 8000
